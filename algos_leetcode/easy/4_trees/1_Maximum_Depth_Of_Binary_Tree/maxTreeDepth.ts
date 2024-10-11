@@ -1,4 +1,4 @@
-import type { Iterative_DFS_Queue_Type, TreeNode } from "./TreeNode.class";
+import type { TreeNode } from "./TreeNode.class";
 
 // Recursive DFS (Depth First Search)
 export function maxTreeDepth_Recursive_DFS(root: TreeNode | null): number {
@@ -31,10 +31,10 @@ export function maxTreeDepth_Iterative_BFS(root: TreeNode | null): number {
 	return level;
 }
 
-// Iterative DFS (Breadth First Search)
+// Iterative DFS (Depth First Search)
 export function maxTreeDepth_Iterative_DFS(root: TreeNode | null): number {
 	let countDepth = 0;
-	const stack: Iterative_DFS_Queue_Type[] = [[root, 1]];
+	const stack: [TreeNode | null, number][] = [[root, 1]];
 
 	while (stack.length > 0) {
 		const [node, depth] = stack.pop()!;
