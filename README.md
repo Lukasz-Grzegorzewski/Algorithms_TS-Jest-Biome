@@ -1,5 +1,5 @@
 > 👀 Check me out [luc-dev.com](https://luc-dev.com)
-> <img src="logo.png"/>
+> <img src="logo.png" height="100px"/>
 
 # 📚 Algorithm Practice Repository
 
