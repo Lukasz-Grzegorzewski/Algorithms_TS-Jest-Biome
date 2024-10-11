@@ -6,11 +6,11 @@
 
 # Example 1:
       3
-      / \
-    9   20
-        /  \
-      15   7
-Input: root = [3,9,20,null,null,15,7]
+    /   \
+  9       5
+        /   \
+      1       7
+Input: root = [3,9,5,null,null,1,7]
 Output: 3
 
 # Example 2:
