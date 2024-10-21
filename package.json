@@ -8,6 +8,7 @@
     "test_leetcode_easy_trees": "jest algos_leetcode/easy/4_trees/*",
     "test_leetcode_easy_sorting_and_searching": "jest algos_leetcode/easy/5_Sorting_And_Searching/*",
     "test_leetcode_easy_dynamic_programming": "jest algos_leetcode/easy/6_Dynamic_Programming/*",
+    "test_leetcode_easy_design": "jest algos_leetcode/easy/7_Design/*",
     "test_random": "jest algos_random/*",
     "test": "jest"
   },
@@ -17,13 +18,15 @@
   "description": "",
   "devDependencies": {
     "@jest/globals": "^29.7.0",
-    "ts-jest": "^29.2.5",
-    "jest": "^29.7.0",
+    "@types/lodash": "^4.17.12",
     "@types/node": "^22.7.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
-    "typescript": "^5.6.2",
-    "ts-node-dev": "^2.0.0"
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.2"
   },
   "dependencies": {
+    "lodash": "^4.17.21"
   }
 }

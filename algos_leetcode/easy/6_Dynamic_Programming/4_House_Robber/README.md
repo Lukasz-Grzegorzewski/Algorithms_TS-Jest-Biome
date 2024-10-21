@@ -1,10 +1,14 @@
 # Description
-  https://leetcode.com/explore/interview/card/top-interview-questions-easy/97/dynamic-programming/576/
-  House Robber
+  https://leetcode.com/explore/interview/card/top-interview-questions-easy/98/design/670/
+  Shuffle an Array
 
-  You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security systems connected and it will automatically contact the police if two adjacent houses were broken into on the same night.
+  Given an integer array nums, design an algorithm to randomly shuffle the array. All permutations of the array should be equally likely as a result of the shuffling.
 
-  Given an integer array nums representing the amount of money of each house, return the maximum amount of money you can rob tonight without alerting the police.
+  Implement the Solution class:
+
+Solution(int[] nums) Initializes the object with the integer array nums.
+int[] reset() Resets the array to its original configuration and returns it.
+int[] shuffle() Returns a random shuffling of the array.
 
 # Example 1:
 Input: nums = [1,2,3,1]
