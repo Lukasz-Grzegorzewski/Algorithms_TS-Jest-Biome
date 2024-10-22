@@ -9,6 +9,7 @@
     "test_leetcode_easy_sorting_and_searching": "jest algos_leetcode/easy/5_Sorting_And_Searching/*",
     "test_leetcode_easy_dynamic_programming": "jest algos_leetcode/easy/6_Dynamic_Programming/*",
     "test_leetcode_easy_design": "jest algos_leetcode/easy/7_Design/*",
+    "test_leetcode_easy_math": "jest algos_leetcode/easy/8_Math/*",
     "test_random": "jest algos_random/*",
     "test": "jest"
   },
