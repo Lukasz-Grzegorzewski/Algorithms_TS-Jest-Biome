@@ -1,28 +1,15 @@
 export class MinStack {
-	stack: number[] = [];
-	minVals: number[] = [];
+	constructor() {}
 
-	push(val: number): void {
-		if (this.minVals.length > 0) {
-			if (val < this.minVals[this.minVals.length - 1])
-				this.minVals[this.minVals.length] = val;
-			else
-				this.minVals[this.minVals.length] =
-					this.minVals[this.minVals.length - 1];
-		} else this.minVals[0] = val;
-		this.stack[this.stack.length] = val;
-	}
+	push(val: number): void {}
 
-	pop(): void {
-		if (this.stack.length > 0) this.stack.length = this.stack.length - 1;
-		if (this.minVals.length > 0) this.minVals.length = this.minVals.length - 1;
-	}
+	pop(): void {}
 
 	top(): number {
-		return this.stack[this.stack.length - 1];
+		return 0;
 	}
 
 	getMin(): number {
-		return this.minVals[this.minVals.length - 1];
+		return 0;
 	}
 }

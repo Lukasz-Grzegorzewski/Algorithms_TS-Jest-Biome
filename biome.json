@@ -13,11 +13,13 @@
 		"rules": {
 			"recommended": true,
 			"complexity": {
-				"noForEach": "off"
+				"noForEach": "off",
+				"noUselessConstructor": "off"
 			},
 			"style": {
 				"noNonNullAssertion": "off",
-				"noParameterAssign": "off"
+				"noParameterAssign": "off",
+				"useImportType": "off"
 			}
 		}
 	},
