@@ -48,6 +48,7 @@
     "test_leetcode_easy_math_1": "jest algos_leetcode/easy/8_Math/1_FizzBuzz",
     "test_leetcode_easy_math_2": "jest algos_leetcode/easy/8_Math/2_Count_Primes",
     "test_leetcode_easy_math_3": "jest algos_leetcode/easy/8_Math/3_Power_of_Three",
+    "test_leetcode_easy_math_4": "jest algos_leetcode/easy/8_Math/4_Roman_to_Integer",
     "test_random": "jest algos_random/*",
     "test": "jest"
   },
@@ -56,6 +57,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@jest/globals": "^29.7.0",
     "@types/lodash": "^4.17.12",
     "@types/node": "^22.7.0",
