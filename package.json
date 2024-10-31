@@ -50,6 +50,7 @@
     "test_leetcode_easy_math_3": "jest algos_leetcode/easy/8_Math/3_Power_of_Three",
     "test_leetcode_easy_math_4": "jest algos_leetcode/easy/8_Math/4_Roman_to_Integer",
     "test_leetcode_easy_others_1": "jest algos_leetcode/easy/9_Others/1_Number_of_1_Bits",
+    "test_leetcode_easy_others_2": "jest algos_leetcode/easy/9_Others/2_Hamming_Distance",
     "test_random": "jest algos_random/*",
     "test": "jest"
   },
