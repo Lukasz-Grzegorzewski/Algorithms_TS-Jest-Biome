@@ -1,27 +1,20 @@
-export function hammingDistance(x: number, y: number): number {
-	// SOLUTION XOR
-	let xor = x ^ y; // XOR to find differing bits
-	let count = 0;
+export function reverseBits(n: number): number {
+	const bit32 = n.toString(2).padStart(32, "0");
+	const bit32Reversed = bit32.split("").reverse().join("");
+	return Number.parseInt(bit32Reversed, 2);
 
-	// Count the number of 1s in the XOR result
-	while (xor > 0) {
-		count += xor & 1; // ex: xor = 5 :: 101 & 001 = 001 ::: | 1&1=1 | 1&0=0 | 0&1=0 | 0&0=0 |
-		xor >>= 1; // Right-shift to check the next bit
+	/* // BITwise Solution
+	let reversed = 0;
+	for (let i = 0; i < 32; i++) {
+		//ex: 11 << 1 => 1011 << 1 => 10110 (decimal aproach : it doubles 11: *2)
+		reversed <<= 1;	// Shift reversed to the left to make space for the new bit
+
+		//ex: -- = 0 | ( 1011 & 0001 ) => 0000 | 0001 => 0001 => 1 : reversed = 01
+		reversed = reversed | (n & 1);	// Add the least significant bit of n to reversed
+
+		//ex: 22 >> 1 => 10110 >> 1 => 1011 (decimal aproach : it devide 22 by 2)
+		n >>= 1;	// Shift n to the right to process the next bit
 	}
-	return count;
-
-	/* // SOLUTION by division by 2
-	 let count = 0;
-	 while (x > 0 || y > 0) {
-		 if (x > 0 && y > 0)
-			 [count, x, y] = [
-				 count + (x % 2 !== y % 2 ? 1 : 0),
-				 Math.floor(x / 2),
-				 Math.floor(y / 2),
-			 ];
-		 else if (x > 0) [count, x] = [count + (x % 2), Math.floor(x / 2)];
-		 else [count, y] = [count + (y % 2), Math.floor(y / 2)];
-	 }
-	 return count;
-	 */
+	return reversed >>> 0; // Ensure the result is treated as an unsigned 32-bit integer
+	*/
 }
