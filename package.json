@@ -4,6 +4,7 @@
 	"scripts": {
 		"test_leetcode_easy_arrays": "jest algos_leetcode/easy/1_arrays/*",
 		"test_leetcode_easy_arrays_1": "jest algos_leetcode/easy/1_arrays/1_Remove_Duplicates_from_Sorted_Array",
+		"test_leetcode_easy_arrays_2": "jest algos_leetcode/easy/1_arrays/2_Best_Time_to_Buy_and_Sell_Stock_II",
 		"test_leetcode_easy_arrays_5": "jest algos_leetcode/easy/1_arrays/5_find_Unique_Num_In_Array copy",
 		"test_leetcode_easy_arrays_6": "jest algos_leetcode/easy/1_arrays/6_intersection_Of_Two_Arrays",
 		"test_leetcode_easy_array_7s": "jest algos_leetcode/easy/1_arrays/7_plus_One_To_Arrays_Of_Digits",
